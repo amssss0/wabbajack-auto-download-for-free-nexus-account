@@ -1,3 +1,6 @@
+I just added javascript from https://github.com/randomtdev/nexusmods_downloadfix to bypass 5 sec wait and key press.
+you can just run it in the background while doing anything (it dosn't need to be on focus to work, it will keep downloading on the background ) playing skyrim or stuff.
+
 # Wabbajack
 
 [![Discord](https://img.shields.io/discord/605449136870916175)](https://discord.gg/wabbajack)
