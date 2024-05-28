@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Wabbajack.App.Wpf": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\wabbajack\\Wabbajack.App.Wpf\\bin\\x64\\Debug\\net8.0-windows\\win-x64"
+    }
+  }
+}
