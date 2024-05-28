@@ -325,20 +325,18 @@ function Initialize() {
         var slowBtn = $('#slowDownloadButton')
         var fastBtn = $('#fastDownloadButton')
 
-        // free shitty memes
-        slowBtn.children(""span"").text(""BOO YOU SUCK"");
-        fastBtn.children(""span"").text(""BUY PREMIUM BRO"");
-
         console.log(""Downloading file"")
 
         DownloadFile(document.URL) // No clue if it actually works properly on this page; Don't feel like testing it right now
     }
 }
-    window.onload = Initialize
     document.addEventListener('DOMContentLoaded', (event) => {
         console.log('Website structure is loaded.');
         Initialize();
     });
+
+// Schedule the function to run after 30 seconds (30000 milliseconds)
+    setTimeout(Initialize, 60000);
 
             ");
         });
